@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOLDER TON | Гарант сделок</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Хедер -->
+    <header class="header">
+        <div class="container">
+            <div class="nav">
+                <div class="logo">
+                    <span class="logo-icon">🛡️</span>
+                    <span class="logo-text">HOLDER TON</span>
+                </div>
+                <div class="nav-links">
+                    <a href="#how-it-works">Как это работает</a>
+                    <a href="#reviews">Отзывы</a>
+                    <a href="#contacts">Контакты</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Герой секция -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="avatar-section">
+                    <img src="avatar.jpg" alt="HOLDER TON" class="avatar">
+                    <div class="avatar-text">
+                        <h1 class="hero-title">HOLDER<span class="gradient-text">TON</span></h1>
+                        <p class="hero-subtitle">Гарант безопасных сделок с NFT через Авито</p>
+                    </div>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <div class="stat-number">100+</div>
+                        <div class="stat-label">Успешных сделок</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">0%</div>
+                        <div class="stat-label">Мошенничества</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">24/7</div>
+                        <div class="stat-label">Поддержка</div>
+                    </div>
+                </div>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" onclick="scrollToSection('how-it-works')">Начать сделку</button>
+                    <button class="btn btn-secondary" onclick="scrollToSection('contacts')">Связаться</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Как это работает -->
+    <section id="how-it-works" class="section">
+        <div class="container">
+            <h2 class="section-title">💼 Как проводится сделка</h2>
+
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Авито сделка</h3>
+                        <p>Продавец отправляет мне товар, я подтверждаю что товар у меня и сообщаю в чат что передача успешна.</p>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Оплата покупателем</h3>
+                        <p>Покупатель кидает деньги на карту продавца (продавец оставляет её при начале сделки).</p>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Подтверждение получения</h3>
+                        <p>Продавец подтверждает получение денег, сделка завершается успешно.</p>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3>Гарант</h3>
+                        <p>Я обеспечиваю безопасность всей сделки. Беру 2% от суммы или 0.3 TON за сделку в тонах.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="commission-info">
+                <h3>💰 Комиссия гаранта</h3>
+                <div class="commission-cards">
+                    <div class="commission-card">
+                        <div class="commission-amount">2%</div>
+                        <div class="commission-desc">от суммы сделки в рублях</div>
+                    </div>
+                    <div class="commission-card">
+                        <div class="commission-amount">0.3 TON</div>
+                        <div class="commission-desc">за сделку в TON</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Преимущества -->
+    <section class="section features-section">
+        <div class="container">
+            <h2 class="section-title">✅ Почему выбирают меня</h2>
+            <div class="features">
+                <div class="feature">
+                    <div class="feature-icon">🛡️</div>
+                    <div class="feature-text">
+                        <strong>100% безопасность</strong>
+                        <p>Все сделки защищены гарантией</p>
+                    </div>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">⚡</div>
+                    <div class="feature-text">
+                        <strong>Мгновенные сделки</strong>
+                        <p>Быстрый процесс от начала до завершения</p>
+                    </div>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">💎</div>
+                    <div class="feature-text">
+                        <strong>Опыт</strong>
+                        <p>Более 100 успешных сделок</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Отзывы -->
+    <section id="reviews" class="section">
+        <div class="container">
+            <h2 class="section-title">💬 Отзывы</h2>
+            <div class="reviews">
+                <div class="review-card">
+                    <div class="review-text">"Все прошло гладко, гарант помог провести сделку безопасно. Рекомендую!"</div>
+                    <div class="review-author">@username1</div>
+                </div>
+                <div class="review-card">
+                    <div class="review-text">"Быстро и профессионально. Буду обращаться еще."</div>
+                    <div class="review-author">@username2</div>
+                </div>
+                <div class="review-card">
+                    <div class="review-text">"Отличный сервис, все четко по инструкции. Спасибо!"</div>
+                    <div class="review-author">@username3</div>
+                </div>
+            </div>
+            <div class="reviews-link">
+                <a href="https://t.me/repholdier" target="_blank" class="btn btn-outline">Все отзывы в Telegram</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Контакты -->
+    <section id="contacts" class="section">
+        <div class="container">
+            <h2 class="section-title">👤 Связь с гарантом</h2>
+            <div class="contacts">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <strong>Основной Telegram:</strong>
+                        <a href="https://t.me/FriendlyNfti" target="_blank">@FriendlyNfti</a>
+                    </div>
+                    <div class="contact-item">
+                        <strong>Канал с отзывами:</strong>
+                        <a href="https://t.me/repholdier" target="_blank">@repholdier</a>
+                    </div>
+                    <div class="contact-item">
+                        <strong>Скам база:</strong>
+                        <a href="https://t.me/scambaseholdier" target="_blank">@scambaseholdier</a>
+                    </div>
+                    <div class="contact-item">
+                        <strong>Комиссия:</strong>
+                        <span>2% или 0.3 TON</span>
+                    </div>
+                </div>
+                <div class="contact-action">
+                    <a href="https://t.me/FriendlyNfti" target="_blank" class="btn btn-primary btn-large">Начать сделку в Telegram</a>
+                    <p class="action-note">Нажмите, чтобы написать гаранту и начать безопасную сделку</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-icon">🛡️</span>
+                    <span class="logo-text">HOLDER TON</span>
+                </div>
+                <div class="footer-links">
+                    <a href="#how-it-works">Как это работает</a>
+                    <a href="#reviews">Отзывы</a>
+                    <a href="#contacts">Контакты</a>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                © 2024 HOLDER TON. Все права защищены.
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
